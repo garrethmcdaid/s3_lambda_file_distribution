@@ -1,0 +1,11 @@
+{"maps":[
+  {"src_bucket":"distribution-bucket",
+  "src_path":"distribution-test/",
+  "string":"match-this-string",
+  "dst_bucket":"destination bucket",
+  "dst_path":"distribution-dst-test/",
+  "action":"move",
+  "omit":
+    ["skip-if-this-string-matched"]
+  }
+]}
