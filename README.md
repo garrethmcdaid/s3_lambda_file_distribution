@@ -11,4 +11,4 @@ An example maps.json file is included for demonstration purposes.
 
 An event.json file is also included to allow for testing outside the AWS Lambda and S3 environments.
 
-The script deliberately includes verbose output, to allow for meaningful debug and audit in the AWS Cloudtrail logs that are generated at each function invocation.
+The script deliberately includes verbose output, to allow for meaningful debug and audit in the AWS Cloudwatch logs that are generated at each function invocation.
