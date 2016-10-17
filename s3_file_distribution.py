@@ -10,7 +10,7 @@ print("Loading function...")
 
 s3 = boto3.resource("s3")
 
-url = "https://s3-us-west-2.amazonaws.com/clavis-file-distribution-json/maps.json?version=3"
+url = "http://localhost/maps.json?version=3"
 jsonurl = urllib.urlopen(url)
 maps = json.loads(jsonurl.read())
 
