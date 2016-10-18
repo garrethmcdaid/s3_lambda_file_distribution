@@ -32,7 +32,7 @@ def check_omit(key,omit):
 def s3_action(src_bucket,src_key,dst_bucket,dst_key):
     print("EVENT MATCHED. TRIGGERING FUNCTION.")
     try:
-        response = s3.Object(dst_bucket,dst_key).copy_from(CopySource=src_bucket + '/' + src_key)
+        response = s3.Object(dst_bucket, dst_key).copy_from(CopySource=src_bucket + '/' + src_key)
         # Testing
         # response = True
         print("Copy response is:")
