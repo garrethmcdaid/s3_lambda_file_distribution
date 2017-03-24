@@ -54,7 +54,7 @@
     ["no-omits"]
   },
   {"src_bucket":"scrape-pool",
-  "src_path":"scrapers/india/incoming/BAU/RR/",
+  "src_path":"scrapers/india/incoming/BAU/review_details/",
   "string":"",
   "dst_bucket":"scrape-pool",
   "dst_path":"load_files/RR/",
@@ -85,6 +85,15 @@
   "string":"",
   "dst_bucket":"scrape-pool",
   "dst_path":"load_files/media_tracking/",
+  "action":"copy",
+  "omit":
+    ["no-omits"]
+  },
+  {"src_bucket":"scrape-pool",
+  "src_path":"scrapers/india/incoming/BAU/ul_reviews/",
+  "string":"",
+  "dst_bucket":"scrape-pool",
+  "dst_path":"load_files/ul_reviews/",
   "action":"copy",
   "omit":
     ["no-omits"]
